@@ -1,0 +1,28 @@
+# 機敏資料：受測環境主機清單
+env.md
+
+# 掃描與整理後的本機產出
+outputs/
+results_*/
+nmap_*/
+nuclei_*/
+zap_*/
+run_*/
+ubuntu_audit_*.tar.gz
+collected/
+targets.txt
+
+# Greenbone 批次掃描產出
+greenbone/batch_out/
+greenbone/smoke_out/
+
+# Python 快取與本機產物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS 與本機環境設定
+.DS_Store
+.env
+.env.*
+!.env.example
